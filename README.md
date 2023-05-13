@@ -4,7 +4,7 @@ which nvcc
 If output gives some path of nvcc then it is installed correctly
 In supercomputing environment you might need to load via module
 
-export CUDA INCLUDE and LIBRARY paths
+export CUDA INCLUDE and LIBRARY paths \\
 export GPU_INCLUDE_PATH=/usr/local/cuda-12.0/include
 export GPU_LIBRARY_PATH=/usr/local/cuda-12.0/lib64
 
