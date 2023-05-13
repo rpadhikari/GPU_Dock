@@ -7,7 +7,7 @@
 # To see more tutorials please follow the Supercomputer Nepal channel
 # Link : https://www.youtube.com/@supercomputer_Nepal
 # Please do NOT remove the above comments
-# dock the ligand
+# dock the ligand (one Ligand file only)
 autodock_gpu_128wi -ffile 6lu7_1/rigidReceptor.maps.fld -lfile L1.pdbqt --flexres 6lu7_1/flexRec.pdbqt -nrun 100 -lsmet ad -resnam lig1
 
 # extract maximum binding affinity from dlg file
